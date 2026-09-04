@@ -29,5 +29,5 @@ def wake_up_streamlit(url):
         driver.quit()
 
 if __name__ == "__main__":
-    STREAMLIT_URL = "https://estad-ku-doc-ai.streamlit.app/"  # เปลี่ยนเป็น URL ของคุณ
+    STREAMLIT_URL = "https://estad-ku-doc-ai.streamlit.app"  # เปลี่ยนเป็น URL ของคุณ
     wake_up_streamlit(STREAMLIT_URL)
