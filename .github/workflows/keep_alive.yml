@@ -7,13 +7,13 @@ on:
 
 jobs:
   wake-up:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # ระบุเวอร์ชัน OS ให้ชัดเจน
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4  # หากมีเวอร์ชันใหม่กว่านี้ ให้อัปเดตเป็นเลขล่าสุด
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5  # หากมีเวอร์ชันใหม่กว่านี้ ให้อัปเดตเป็นเลขล่าสุด
         with:
           python-version: '3.12'
 
